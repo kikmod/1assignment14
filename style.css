@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+#home {
+  width: 100%;
+  height: 600px;
+  background-image: url(events-heavenly-header.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(214, 46, 51, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#leftMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav {
+  background-color: #414658;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+
+.sidenav a:hover {
+  color: rgb(141, 11, 37);
+}
+
+.openNav {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#sliderDowen h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+
+.innerfst,
+.inner {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+  background-color: transparent;
+}
+
+.innerfst.active,
+.inner.active {
+  display: block;
+  max-height: 1000px;
+  background-color: gray;
+}
+
+#count {
+  background-image: url(./invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+  width: 50%;
+  overflow-y: hidden;
+}
+
+.count-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 175px;
+  border: 2px solid white;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+#contact-us .head h2 {
+  color: #444;
+}
+
+#contact-us .con-info p {
+  width: 90%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+
+.red {
+  color: #d62e33 !important;
+}
+
+#contact-us .con-info .social-list {
+  margin-top: 60px;
+  color: #777;
+}
+#contact-us .con-info .social-list i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+#contact-us .con-info .social-list i:hover{
+  background-color: #d62e33;
+  color: #fff;
+}
